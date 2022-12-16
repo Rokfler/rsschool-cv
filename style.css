@@ -1,13 +1,18 @@
-body {
-    background-color: lightblue;
-}
 
-h1 {
-    color: white;
-    text-align: center;
+.Profile {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    font: 14px/1 Courier New, monospace;
+    color: #000000;
+    padding: 20px;
 }
-
-p {
-    font-family: verdana;
-    font-size: 20px;
+.Experience {
+    position:relative;
+    left: 300px;
+    background-color: #E4DED0;
+    font: 16px/1.2 Courier New, monospace;
+    color: #000000;
+    padding: 10px;
 }
