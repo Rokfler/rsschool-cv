@@ -1,4 +1,10 @@
 
+header {
+    font: small-caps bold 18px Courier New, monospace;
+    text-decoration: none;
+    color:#000000;
+    background-color: #E4DED0;
+}
 .Profile {
     width: 300px;
     height: 100%;
