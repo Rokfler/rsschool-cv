@@ -1,36 +1,65 @@
 
-.CV {
-height: 100%;
-margin: 0;
-padding: 0;
-font: 14px/1 Courier New, monospace;
-color: #000000;
-}
 html {
     scroll-behavior: smooth;
     display: block;
 }
-#header-menu {
-    font: small-caps bold 18px Courier New, monospace;
+* {
+    box-sizing: border-box;
+  }
+body {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 30px;
+    font: small-caps bold 20px Arial, sans-serif;
     text-decoration: none;
-    color:#000000;
-    background-color: #E4DED0;
-    text-align: ;
+    transition: .3s;
+  }
+.nav-item {
+    padding: 0 35px;
+    color: black;
 }
-.Profile {
-    width: 300px;
-    height: 100%;
-    position: fixed;
-    background-color: white;
-    font: 14px/1 Courier New, monospace;
-    color: #000000;
-    padding: 20px;
+.contacts {
+    list-style: none;  
+    padding: 0; 
 }
-.Experience {
-    position:relative;
-    left: 300px;
-    background-color: #E4DED0;
-    font: 16px/1.2 Courier New, monospace;
-    color: #000000;
-    padding: 10px;
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 30px;
+    font: small-caps bold 20px Arial, sans-serif;
+    text-decoration: none;
+    transition: .3s;  
+  }
+.footer {
+    padding: 0 85px;
+    color: black;   
 }
+
