@@ -1,9 +1,21 @@
 
-header {
+.CV {
+height: 100%;
+margin: 0;
+padding: 0;
+font: 14px/1 Courier New, monospace;
+color: #000000;
+}
+html {
+    scroll-behavior: smooth;
+    display: block;
+}
+#header-menu {
     font: small-caps bold 18px Courier New, monospace;
     text-decoration: none;
     color:#000000;
     background-color: #E4DED0;
+    text-align: ;
 }
 .Profile {
     width: 300px;
