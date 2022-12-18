@@ -17,7 +17,6 @@ body {
 }
 
 main {
-    padding-bottom: 90px;
     height: 100%;
 }
 
@@ -25,6 +24,11 @@ header {
     background-color: #686458;
     margin: 0;
     padding: 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
 }
 
 .nav-list {
@@ -58,7 +62,7 @@ header {
     padding: 0; 
 }
 
-.main-container {
+#main-container {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
