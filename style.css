@@ -50,7 +50,6 @@ header {
 }
 
 .container {
-    /* max-width: 1440px; */
     margin: 0 auto;
 }
 
@@ -99,7 +98,7 @@ header {
 }
 
 table {
-border: 2px dotted #686458;
+    border: 2px dotted #686458;
 }
 
 td {
